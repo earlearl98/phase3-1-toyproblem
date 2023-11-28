@@ -19,3 +19,7 @@ def solve(s):
     max_value = max(max_value, calculate_value(current_substring))
 
     return max_value
+
+result = solve('going')
+
+print(f'The result for the test case is: {result}')

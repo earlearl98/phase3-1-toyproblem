@@ -9,3 +9,7 @@ def exactly_two_positive(a, b, c):
         positive_count += 1
 
     return positive_count == 2
+
+result = exactly_two_positive(1, -2, 3)
+
+print(f'The result for the test case is: {result}')
